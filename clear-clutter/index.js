@@ -2,7 +2,7 @@ import fsn from "fs";
 import fs from "fs/promises";
 import path from "path";
 
-const myPath = "E:\\practice\\express js\\clear-clutter"
+const myPath = process.cwd();
 
 let files = await fs.readdir(myPath);
 
